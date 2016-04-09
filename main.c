@@ -167,7 +167,7 @@ void main (){
 		// The simulation goes off when it run a day (24h)
 		limit_time +=1;
 		if (limit_time == TIME) break;
-		sleep(60); // The simulation runs in a time resolution of a minute
+		sleep(3); // The simulation runs in a time resolution of a minute
 		
 	}	
 	
